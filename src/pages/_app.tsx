@@ -14,6 +14,10 @@ export default function App(props: AppProps) {
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width"
         />
+        <meta
+          name="description"
+          content="Next.js + Tailwind CSS + Mantine Sample"
+        />
         <link rel="icon" href="/favicon.ico" />
         {/* <meta name="robots" content="noindex" /> */}
       </Head>
