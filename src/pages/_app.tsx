@@ -12,6 +12,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           content="width=device-width,initial-scale=1"
         ></meta>
         <link rel="icon" href="/favicon.ico" />
+        {/* <meta name="robots" content="noindex" /> */}
       </Head>
       <Component {...pageProps} />
     </>
